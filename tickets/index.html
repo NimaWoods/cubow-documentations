@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title># CubowBot FAQ - Cubow Documentation</title>
+        <title>Ticket System Documentation - Cubow Documentation</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/fontawesome.min.css" rel="stylesheet">
         <link href="../css/brands.min.css" rel="stylesheet">
@@ -44,7 +44,7 @@
                                 <a href="../commands/" class="nav-link">Commands</a>
                             </li>
                             <li class="nav-item">
-                                <a href="." class="nav-link">FAQ</a>
+                                <a href="../faq.md" class="nav-link">FAQ</a>
                             </li>
                         </ul>
 
@@ -72,13 +72,13 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#cubowbot-faq" class="nav-link"># CubowBot FAQ</a>
+            <li class="nav-item" data-bs-level="1"><a href="#ticket-system-documentation" class="nav-link">Ticket System Documentation</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#how-do-i-translate-cubow" class="nav-link">How do I translate Cubow</a>
+            <li class="nav-item" data-bs-level="2"><a href="#overview" class="nav-link">Overview</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#support" class="nav-link">Support</a>
+            <li class="nav-item" data-bs-level="2"><a href="#main-components-and-functions" class="nav-link">Main Components and Functions</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -89,23 +89,38 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="cubowbot-faq"># CubowBot FAQ</h1>
-<h3 id="what-is-cubowbot">What is CubowBot?</h3>
-<p>CubowBot is an all-in-one Discord bot designed to enhance server management and user engagement. It offers a wide range of commands for moderation, ticketing, music playback, AI interactions, and more.</p>
-<h3 id="how-do-i-invite-cubowbot-to-my-server">How do I invite CubowBot to my server?</h3>
-<p>You can invite CubowBot to your server using the following <a href="https://discord.com/oauth2/authorize?client_id=1217485873508253839">Invite Link</a>.</p>
-<h3 id="where-can-i-see-the-development-of-cubow">Where can I see the Development of Cubow?</h3>
-<p>You can track out progress under <a href="https://open.codecks.io/cubowbot">Tickets</a></p>
-<h2 id="how-do-i-translate-cubow">How do I translate Cubow</h2>
-<p>You can help translating Cubow here <a href="https://localazy.com/p/cubow-bot">Translation</a></p>
-<h3 id="what-is-the-prefix-for-cubowbot">What is the prefix for CubowBot?</h3>
-<p>CubowBot uses slash commands, so you can interact with it using the <code>/</code> prefix.</p>
-<h2 id="support">Support</h2>
-<h3 id="where-can-i-get-support-for-cubowbot">Where can I get support for CubowBot?</h3>
-<p>For support, you can join our <a href="https://discord.com/oauth2/authorize?client_id=1217485873508253839">Support Server</a>. Our community and support team will be happy to help you with any issues or questions.</p>
-<h3 id="how-can-i-provide-feedback-or-report-an-issue">How can I provide feedback or report an issue?</h3>
-<p>You can provide feedback or report issues directly in our <a href="https://discord.gg/invite/12345">Support Server</a> or using the <code>/bug</code> and <code>/suggest</code> commands in your server.</p>
-<p>This FAQ covers the most common questions about CubowBot. If you have any other questions, feel free to reach out to us in the support server.</p></div>
+<h1 id="ticket-system-documentation">Ticket System Documentation</h1>
+<h2 id="overview">Overview</h2>
+<p>The CubowBot Ticket System allows users to submit support requests or other inquiries in a structured and organized manner. The system supports the creation, management, and closure of tickets, as well as communication between members and moderators.</p>
+<h2 id="main-components-and-functions">Main Components and Functions</h2>
+<p>The main class for managing tickets. It includes functionality for creating, editing, and closing tickets, managing permissions, and sending notifications.</p>
+<h3 id="key-functions">Key Functions</h3>
+<h4 id="ticket-creation">Ticket Creation</h4>
+<p>The system enables the creation of a ticket by checking the user's permissions and, if authorized, generating a new ticket channel with the appropriate settings and roles. A button can be used to trigger this process.</p>
+<h4 id="dashboard-panel">Dashboard Panel</h4>
+<p>A dashboard panel for ticket creation can be sent to a predefined channel, allowing users to easily create new tickets.</p>
+<h4 id="adding-and-removing-members">Adding and Removing Members</h4>
+<p>Moderators can add members to an existing ticket, granting them access to the ticket channel. They can also remove members from the ticket, revoking their access.</p>
+<h4 id="ticket-closure">Ticket Closure</h4>
+<p>Tickets can be closed by the creator or a moderator. The system confirms the closure, archives the ticket, and notifies the relevant parties. Closure requests can be made, and confirmations are handled through user interaction.</p>
+<h4 id="claiming-and-unclaiming-tickets">Claiming and Unclaiming Tickets</h4>
+<p>Moderators can take responsibility for a ticket, assigning it to themselves and updating permissions. They can also release responsibility, making the ticket available for others to claim.</p>
+<h4 id="transferring-tickets">Transferring Tickets</h4>
+<p>Responsibility for a ticket can be transferred from one member to another, updating permissions accordingly.</p>
+<h4 id="transcript-creation">Transcript Creation</h4>
+<p>When a ticket is closed, the system creates a transcript of all messages in the ticket channel. This transcript is sent to a defined transcript channel, ensuring that records of the conversation are maintained.</p>
+<h3 id="usage-examples">Usage Examples</h3>
+<h4 id="creating-a-ticket">Creating a Ticket</h4>
+<p>A user clicks on the "Create Ticket" button. The system checks permissions and, if successful, creates a new ticket channel with appropriate settings.</p>
+<h4 id="adding-a-member">Adding a Member</h4>
+<p>Moderators can use the system to add a member to an existing ticket, giving them access to the channel.</p>
+<h4 id="closing-a-ticket">Closing a Ticket</h4>
+<p>To close a ticket, a confirmation process is initiated. Once confirmed, the ticket is archived, and a transcript is created.</p>
+<h4 id="claiming-a-ticket">Claiming a Ticket</h4>
+<p>Moderators can claim a ticket to take responsibility for it. The ticket is then assigned to them, and the necessary permissions are updated.</p>
+<h4 id="transcript-creation_1">Transcript Creation</h4>
+<p>Upon ticket closure, a complete transcript of the ticket channel's messages is generated and sent to a predefined transcript channel.</p>
+<p>This documentation provides an overview of the main functions of the Ticket System in CubowBot and their implementation. For detailed information and specific use cases, the code should be examined directly.</p></div>
             </div>
         </div>
 
