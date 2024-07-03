@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca682fadbb9a790b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/commands.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/commands.md"
               }
             }
           },
@@ -154,8 +167,26 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "5b8effbc8dd001d6",
+  "active": "ca682fadbb9a790b",
   "lastOpenFiles": [
+    "site/commands/index.html",
+    "site/commands",
+    "docs/faq.md.md",
+    "site/getting-started/index.html",
+    "site/getting-started",
+    "site/faq.md/index.html",
+    "site/faq.md",
+    "site/commands.md/index.html",
+    "site/commands.md",
+    "docs/commands.md",
+    "docs/getting-started.md",
+    "docs/index.md",
+    "site/search/search_index.json",
+    "site/index.html",
+    "site/sitemap.xml.gz",
+    "site/sitemap.xml",
+    "site/404.html",
+    "site/img/grid.png",
     "Terms of Service.md",
     "documentation_en.md/Unbenannt.md",
     "documentation_en.md"
