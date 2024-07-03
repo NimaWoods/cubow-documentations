@@ -82,8 +82,28 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#test" class="nav-link">Test</a>
+            <li class="nav-item" data-bs-level="1"><a href="#getting-started-with-cubowbot" class="nav-link">Getting Started with CubowBot</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#step-1-inviting-cubowbot-to-your-server" class="nav-link">Step 1: Inviting CubowBot to Your Server</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#step-2-initial-setup-coming-soon" class="nav-link">Step 2: Initial Setup (Coming Soon)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#step-3-configuring-server-options" class="nav-link">Step 3: Configuring Server Options</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#step-4-explore-cubowbots-features" class="nav-link">Step 4: Explore CubowBot's Features</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#need-help" class="nav-link">Need Help?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -91,7 +111,177 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="test">Test</h1></div>
+<h1 id="getting-started-with-cubowbot">Getting Started with CubowBot</h1>
+<p>Welcome to CubowBot! This guide will help you get started with setting up CubowBot in your Discord server. Follow the steps below to configure CubowBot and make the most out of its features.</p>
+<h2 id="step-1-inviting-cubowbot-to-your-server">Step 1: Inviting CubowBot to Your Server</h2>
+<p>First, you'll need to invite CubowBot to your Discord server. Use the following <a href="https://discord.com/oauth2/authorize?client_id=1217485873508253839t">Invite Link</a> to add CubowBot to your server.</p>
+<h2 id="step-2-initial-setup-coming-soon">Step 2: Initial Setup (Coming Soon)</h2>
+<p>/setup is a simple command that will walk you through the basic setup. However, this feature is currently under development. In the meantime, you can manually configure CubowBot using the commands listed below.</p>
+<h2 id="step-3-configuring-server-options">Step 3: Configuring Server Options</h2>
+<p>CubowBot provides a variety of options to customize its behavior to suit your server's needs. Use the following commands to set up these options:</p>
+<h3 id="general-options">General Options</h3>
+<ul>
+<li>
+<p><strong>Set Language</strong>: Configure the language for CubowBot.
+  <code>/options language &lt;language_code&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Rules</strong>: Configure the rules to be displayed in the rules channel.
+  <code>/options rules &lt;rules_text&gt;</code></p>
+</li>
+<li>
+<p><strong>Enable/Disable Automod</strong>: Turn automatic moderation on or off.
+  <code>/options automod &lt;true/false&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Rule Channel</strong>: Specify the channel where rules should be posted.
+  <code>/options rule_channel &lt;#channel&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Welcome Channel</strong>: Specify the channel for welcome messages.
+  <code>/options welcome_channel &lt;#channel&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Welcome Message</strong>: Customize the welcome message for new members.
+  <code>/options welcome_message &lt;message_text&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Goodbye Channel</strong>: Specify the channel for goodbye messages.
+  <code>/options goodbye_channel &lt;#channel&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Goodbye Message</strong>: Customize the goodbye message for departing members.
+  <code>/options goodbye_message &lt;message_text&gt;</code></p>
+</li>
+</ul>
+<h3 id="social-media-links">Social Media Links</h3>
+<ul>
+<li>
+<p><strong>Set Website Link</strong>: Provide your website URL.
+  <code>/options website &lt;website_url&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Discord Link</strong>: Provide a link to your Discord server.
+  <code>/options discord &lt;discord_url&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Twitter Link</strong>: Provide your Twitter profile URL.
+  <code>/options twitter &lt;twitter_url&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Instagram Link</strong>: Provide your Instagram profile URL.
+  <code>/options instagram &lt;instagram_url&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Facebook Link</strong>: Provide your Facebook profile URL.
+  <code>/options facebook &lt;facebook_url&gt;</code></p>
+</li>
+<li>
+<p><strong>Set YouTube Link</strong>: Provide your YouTube channel URL.
+  <code>/options youtube &lt;youtube_url&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Twitch Link</strong>: Provide your Twitch channel URL.
+  <code>/options twitch &lt;twitch_url&gt;</code></p>
+</li>
+</ul>
+<h3 id="role-settings">Role Settings</h3>
+<ul>
+<li>
+<p><strong>Set Mute Role</strong>: Specify the role to be used for muting members.
+  <code>/options mute_role &lt;@role&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Join Auto-role</strong>: Assign a role automatically when a user joins the server.
+  <code>/options join_autorole &lt;@role&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Moderation Roles</strong>: Define the roles that have moderation permissions.
+  <code>/options moderation_roles &lt;@role1&gt;, &lt;@role2&gt;, ...</code></p>
+</li>
+</ul>
+<h3 id="ai-and-chatgpt-settings">AI and ChatGPT Settings</h3>
+<ul>
+<li>
+<p><strong>Set ChatGPT Permissions</strong>: Define who can use ChatGPT commands (ALL/ADMIN/OWNER).
+  <code>/options chatgpt_permissions &lt;ALL/ADMIN/OWNER&gt;</code></p>
+</li>
+<li>
+<p><strong>Set ChatGPT API Token</strong>: Provide your ChatGPT API token.
+  <code>/options chatgpt_api_token &lt;api_token&gt;</code></p>
+</li>
+<li>
+<p><strong>Set ChatGPT Prompt</strong>: Set the default prompt for ChatGPT interactions.
+  <code>/options chatgpt_prompt &lt;prompt_text&gt;</code></p>
+</li>
+</ul>
+<h3 id="ticket-system-configuration">Ticket System Configuration</h3>
+<ul>
+<li>
+<p><strong>Set Ticket Channel</strong>: Specify the channel for the ticket panel.
+  <code>/ticketoptions ticket_channel &lt;#channel&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Ticket Category</strong>: Define the category where tickets will be created.
+  <code>/ticketoptions ticket_category &lt;category_name&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Transcript Channel</strong>: Specify the channel where ticket transcripts will be sent.
+  <code>/ticketoptions transcript_channel &lt;#channel&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Ticket Title</strong>: Customize the title for tickets.
+  <code>/ticketoptions ticket_title &lt;title_text&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Ticket Description</strong>: Customize the description for tickets.
+  <code>/ticketoptions ticket_description &lt;description_text&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Ticket Name</strong>: Define the naming convention for ticket channels.
+  <code>/ticketoptions ticket_name &lt;name_text&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Ticket Q&amp;A</strong>: Provide a Q&amp;A text to assist with ticket issues.
+  <code>/ticketoptions ticket_q_and_a &lt;q&amp;a_text&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Ticket View Role Permissions</strong>: Define which roles can view tickets.
+  <code>/ticketoptions ticket_view_role_permission &lt;@role1&gt;, &lt;@role2&gt;, ...</code></p>
+</li>
+<li>
+<p><strong>Set Ticket Send Role Permissions</strong>: Define which roles can send messages in tickets.
+  <code>/ticketoptions ticket_send_role_permission &lt;@role1&gt;, &lt;@role2&gt;, ...</code></p>
+</li>
+<li>
+<p><strong>Set Ticket Mention Role</strong>: Specify roles to be mentioned in new tickets.
+  <code>/ticketoptions ticket_mention_role &lt;@role1&gt;, &lt;@role2&gt;, ...</code></p>
+</li>
+</ul>
+<h3 id="notification-configuration">Notification Configuration</h3>
+<ul>
+<li>
+<p><strong>Set Moderation Notification Channel</strong>: Specify the channel for moderation notifications.
+  <code>/notificationoptions moderation_notification_channel &lt;#channel&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Report Notification Channel</strong>: Specify the channel for report notifications.
+  <code>/notificationoptions report_notification_channel &lt;#channel&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Live Notification Channel (Twitch)</strong>: Specify the channel for Twitch live notifications.
+  <code>/notificationoptions live_notification_channel &lt;#channel&gt;</code></p>
+</li>
+<li>
+<p><strong>Set Offline Notification Channel (Twitch)</strong>: Specify the channel for Twitch offline notifications.
+  <code>/notificationoptions offline_notification_channel &lt;#channel&gt;</code></p>
+</li>
+</ul>
+<h2 id="step-4-explore-cubowbots-features">Step 4: Explore CubowBot's Features</h2>
+<p>Once you have configured the basic settings, explore CubowBot's extensive feature set. Use <code>/help</code> to see a list of available commands and start interacting with the bot to see how it can enhance your server.</p>
+<h2 id="need-help">Need Help?</h2>
+<p>If you have any questions or need further assistance, join our <a href="https://discord.gg/93Z6SxWzQ4">Support Server</a>. Our community and support team are here to help you get the most out of CubowBot.</p>
+<p>Enjoy using CubowBot and make your Discord server more engaging and manageable!</p></div>
             </div>
         </div>
 

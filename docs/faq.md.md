@@ -7,7 +7,10 @@ CubowBot is an all-in-one Discord bot designed to enhance server management and 
 You can invite CubowBot to your server using the following [Invite Link](https://discord.com/oauth2/authorize?client_id=1217485873508253839).
 
 ### Where can I see the Development of Cubow?
-You can track out progress under []
+You can track out progress under [Tickets](https://open.codecks.io/cubowbot)
+
+## How do I translate Cubow
+You can help translating Cubow here [Translation](https://localazy.com/p/cubow-bot)
 
 ### What is the prefix for CubowBot?
 CubowBot uses slash commands, so you can interact with it using the `/` prefix.

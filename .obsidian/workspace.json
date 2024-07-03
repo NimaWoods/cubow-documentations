@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/faq.md.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": true
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/faq.md.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/faq.md.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/faq.md.md"
+                "file": "docs/index.md"
               }
             }
           },
@@ -169,6 +169,8 @@
   },
   "active": "ca682fadbb9a790b",
   "lastOpenFiles": [
+    "site/tickets/index.html",
+    "site/tickets",
     "docs/getting-started.md",
     "docs/faq.md.md",
     "docs/commands.md",
@@ -185,7 +187,6 @@
     "site/search/search_index.json",
     "site/index.html",
     "site/sitemap.xml.gz",
-    "site/sitemap.xml",
     "site/img/grid.png",
     "Terms of Service.md",
     "documentation_en.md/Unbenannt.md",

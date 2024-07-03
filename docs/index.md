@@ -1,17 +1,36 @@
-# Welcome to MkDocs
+# CubowBot Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the CubowBot Documentation! This guide will help you understand and utilize all the features of CubowBot to enhance your Discord server management and user engagement.
 
-## Commands
+## Table of Contents
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+1. [Getting Started](https://nimawoods.github.io/cubow-documentations/getting-started/)
+    - [Inviting CubowBot to Your Server](https://nimawoods.github.io/cubow-documentations/getting-started/#inviting-cubowbot-to-your-server)
+    - [Initial Setup (Coming Soon)]https://nimawoods.github.io/cubow-documentations/getting-started/(#initial-setup-coming-soon)
+    - [Configuring Server Options](https://nimawoods.github.io/cubow-documentations/getting-started/#configuring-server-options)
+    - [Exploring CubowBot's Features](https://nimawoods.github.io/cubow-documentations/getting-started/#exploring-cubowbots-features)
+    - [Need Help?](#need-help)
 
-## Project layout
+2. [Command List](https://nimawoods.github.io/cubow-documentations/command-list)
+    - [General Commands](#general-commands)
+    - [Ticket Commands](#ticket-commands)
+    - [Moderation Commands](#moderation-commands)
+    - [Feedback Commands](#feedback-commands)
+    - [Giveaway Commands](#giveaway-commands)
+    - [Music Commands](#music-commands)
+    - [AI Commands](#ai-commands)
+    - [Miscellaneous Commands](#miscellaneous-commands)
+    - [Notification Commands](#notification-commands)
+    - [Report Commands](#report-commands)
+    - [Lockdown Commands](#lockdown-commands)
+    - [Temporary Text Channel Commands](#temporary-text-channel-commands)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+3. [FAQ](#faq)
+    - [General Questions](https://nimawoods.github.io/cubow-documentations/general-questions)
+    - [Ticket System](https://nimawoods.github.io/cubow-documentations/general-questions#ticket-system)
+    - [Moderation Commands](https://nimawoods.github.io/cubow-documentations/general-questions#moderation-commands)
+    - [Music Commands](https://nimawoods.github.io/cubow-documentations/general-questions#music-commands)
+    - [AI Commands]https://nimawoods.github.io/cubow-documentations/general-questions(#ai-commands)
+    - [Feedback and Suggestions](https://nimawoods.github.io/cubow-documentations/general-questions#feedback-and-suggestions)
+    - [Miscellaneous](https://nimawoods.github.io/cubow-documentations/general-questions#miscellaneous)
+    - [Support](https://nimawoods.github.io/cubow-documentations/general-questions#sup
