@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -155,7 +154,7 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "9243653fc435e3ef",
+  "active": "5b8effbc8dd001d6",
   "lastOpenFiles": [
     "Terms of Service.md",
     "documentation_en.md/Unbenannt.md",

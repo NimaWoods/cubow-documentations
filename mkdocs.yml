@@ -1,1 +1,6 @@
-site_name: Cubow
+site_name: Cubow Documentation
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Commands: commands.md
+  - FAQ: faq.md
