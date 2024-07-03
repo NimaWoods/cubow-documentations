@@ -25,9 +25,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/commands.md",
+                "file": "docs/faq.md.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/commands.md",
+                "file": "docs/faq.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/commands.md",
+                "file": "docs/faq.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/commands.md"
+                "file": "docs/faq.md.md"
               }
             }
           },
@@ -169,11 +169,11 @@
   },
   "active": "ca682fadbb9a790b",
   "lastOpenFiles": [
-    "docs/tickets.md",
     "docs/getting-started.md",
-    "docs/index.md",
     "docs/faq.md.md",
     "docs/commands.md",
+    "docs/tickets.md",
+    "docs/index.md",
     "site/commands/index.html",
     "site/commands",
     "site/getting-started/index.html",
