@@ -11,7 +11,8 @@ extra:
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
-  - Commands: commands.md
   - FAQ: faq.md
+  - Commands: commands.md
+  - Option Commands: options.md
   - Tickets: tickets.md
   - How To Use AI: ai-setup.md
