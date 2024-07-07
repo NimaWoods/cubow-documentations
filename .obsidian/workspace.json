@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/ai-setup.md",
                 "mode": "source",
                 "source": true
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/ai-setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/ai-setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/ai-setup.md"
               }
             }
           },
@@ -169,13 +169,14 @@
   },
   "active": "ca682fadbb9a790b",
   "lastOpenFiles": [
+    "docs/faq.md",
+    "docs/ai-setup.md",
+    "docs/commands.md",
+    "docs/getting-started.md",
+    "docs/index.md",
     "site/tickets/index.html",
     "site/tickets",
-    "docs/getting-started.md",
-    "docs/faq.md.md",
-    "docs/commands.md",
     "docs/tickets.md",
-    "docs/index.md",
     "site/commands/index.html",
     "site/commands",
     "site/getting-started/index.html",
@@ -186,7 +187,6 @@
     "site/commands.md",
     "site/search/search_index.json",
     "site/index.html",
-    "site/sitemap.xml.gz",
     "site/img/grid.png",
     "Terms of Service.md",
     "documentation_en.md/Unbenannt.md",
