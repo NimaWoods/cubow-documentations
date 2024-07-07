@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ai-setup.md",
+                "file": "docs/faq.md",
                 "mode": "source",
                 "source": true
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/ai-setup.md",
+                "file": "docs/faq.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/ai-setup.md",
+                "file": "docs/faq.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/ai-setup.md"
+                "file": "docs/faq.md"
               }
             }
           },
@@ -169,24 +169,25 @@
   },
   "active": "ca682fadbb9a790b",
   "lastOpenFiles": [
-    "docs/faq.md",
-    "docs/ai-setup.md",
-    "docs/commands.md",
     "docs/getting-started.md",
-    "docs/index.md",
+    "docs/commands.md",
+    "docs/ai-setup.md",
+    "site/search/search_index.json",
+    "site/search",
     "site/tickets/index.html",
     "site/tickets",
-    "docs/tickets.md",
-    "site/commands/index.html",
-    "site/commands",
     "site/getting-started/index.html",
     "site/getting-started",
-    "site/faq.md/index.html",
+    "site/faq/index.html",
+    "site/faq",
+    "site/commands/index.html",
+    "site/commands",
+    "site/assets/images/favicon.png",
+    "docs/faq.md",
+    "docs/index.md",
+    "docs/tickets.md",
     "site/faq.md",
-    "site/commands.md/index.html",
     "site/commands.md",
-    "site/search/search_index.json",
-    "site/index.html",
     "site/img/grid.png",
     "Terms of Service.md",
     "documentation_en.md/Unbenannt.md",

@@ -1,4 +1,4 @@
-# # CubowBot FAQ
+## CubowBot FAQ
 
 ### What is CubowBot?
 CubowBot is an all-in-one Discord bot designed to enhance server management and user engagement. It offers a wide range of commands for moderation, ticketing, music playback, AI interactions, and more.
