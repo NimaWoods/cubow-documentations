@@ -178,7 +178,3 @@ The `/notificationoptions` command allows you to set various notification channe
   ```plaintext
   /notificationoptions offline_notification_channel offline_notification_channel:<#channel>
   ```
-
-## Conclusion
-
-This guide covers the setup and usage of commands in Cubow Bot to configure server settings, manage tickets, and set up notifications. Make sure to have the necessary permissions to execute these commands. Use the provided examples to configure your server effectively.
