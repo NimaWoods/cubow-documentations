@@ -1,6 +1,16 @@
 site_name: Cubow Documentation
+theme:
+  name: 'material'
+  palette:
+    primary: '#e166fd'
+    accent: '#7739fb'
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/Vr8X2Wteje
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
   - Commands: commands.md
   - FAQ: faq.md
+  - Tickets: tickets.md
