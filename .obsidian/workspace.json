@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/options.md",
+                "file": "docs/tickets.md",
                 "mode": "source",
                 "source": true
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/options.md",
+                "file": "docs/tickets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/options.md",
+                "file": "docs/tickets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/options.md"
+                "file": "docs/tickets.md"
               }
             }
           },
@@ -167,8 +167,9 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "12951d8da134a9f9",
+  "active": "ca682fadbb9a790b",
   "lastOpenFiles": [
+    "docs/commands.md",
     "site/search/search_index.json",
     "site/search",
     "site/tickets/index.html",
@@ -179,11 +180,9 @@
     "site/getting-started",
     "site/faq/index.html",
     "site/faq",
-    "site/commands/index.html",
     "docs/faq.md",
     "docs/options.md",
     "docs/getting-started.md",
-    "docs/commands.md",
     "docs/ai-setup.md",
     "site/assets/images/favicon.png",
     "docs/index.md",

@@ -1,5 +1,20 @@
 # Ticket System Documentation
 
+# Setup 
+Set an Ticket Channel and Category:
+```
+/ticketoptions ticket_channel <ticket_channel:#ticket>
+```
+```
+/ticketoptions ticket_category <ticket_category:> --> You need to set an category ID
+```
+
+Set an Ticket Title and Description
+/ticketoptions ticket_title <ticket_title:>
+/ticketoptions ticket_description <ticket_description:>
+
+You can Set an AI Token for AI Response 
+
 ## Overview
 The CubowBot Ticket System allows users to submit support requests or other inquiries in a structured and organized manner. The system supports the creation, management, and closure of tickets, as well as communication between members and moderators.
 
