@@ -345,6 +345,48 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#set-a-ticket-channel-and-category" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set a Ticket Channel and Category
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-a-ticket-title-and-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set a Ticket Title and Description
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-ai-token-for-ai-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set AI Token for AI Response
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
       Overview
@@ -362,6 +404,15 @@
   
     <nav class="md-nav" aria-label="Main Components and Functions">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ticket-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ticket Class
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#key-functions" class="md-nav__link">
@@ -561,6 +612,48 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#set-a-ticket-channel-and-category" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set a Ticket Channel and Category
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-a-ticket-title-and-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set a Ticket Title and Description
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-ai-token-for-ai-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set AI Token for AI Response
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
       Overview
@@ -578,6 +671,15 @@
   
     <nav class="md-nav" aria-label="Main Components and Functions">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ticket-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ticket Class
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#key-functions" class="md-nav__link">
@@ -738,10 +840,27 @@
 
 
 <h1 id="ticket-system-documentation">Ticket System Documentation</h1>
+<h2 id="setup">Setup</h2>
+<h3 id="set-a-ticket-channel-and-category">Set a Ticket Channel and Category</h3>
+<p>Set the channel where new tickets will appear:</p>
+<pre><code class="language-bash">/ticketoptions ticket_channel &lt;ticket_channel:#ticket&gt;
+</code></pre>
+<p>Set the category ID for ticket channels:</p>
+<pre><code class="language-bash">/ticketoptions ticket_category &lt;ticket_category:category_id&gt;
+</code></pre>
+<h3 id="set-a-ticket-title-and-description">Set a Ticket Title and Description</h3>
+<p>Configure the title and description for new tickets:</p>
+<pre><code class="language-bash">/ticketoptions ticket_title &lt;ticket_title:Your Ticket Title&gt;
+</code></pre>
+<pre><code class="language-bash">/ticketoptions ticket_description &lt;ticket_description:Your Ticket Description&gt;
+</code></pre>
+<h3 id="set-ai-token-for-ai-response">Set AI Token for AI Response</h3>
+<p>You can set an AI Token for AI Response by following <a href="https://nimawoods.github.io/cubow-documentations/ai-setup/">this guide</a>.</p>
 <h2 id="overview">Overview</h2>
 <p>The CubowBot Ticket System allows users to submit support requests or other inquiries in a structured and organized manner. The system supports the creation, management, and closure of tickets, as well as communication between members and moderators.</p>
 <h2 id="main-components-and-functions">Main Components and Functions</h2>
-<p>The main class for managing tickets. It includes functionality for creating, editing, and closing tickets, managing permissions, and sending notifications.</p>
+<h3 id="ticket-class">Ticket Class</h3>
+<p>The main class for managing tickets includes functionality for creating, editing, and closing tickets, managing permissions, and sending notifications.</p>
 <h3 id="key-functions">Key Functions</h3>
 <h4 id="ticket-creation">Ticket Creation</h4>
 <p>The system enables the creation of a ticket by checking the user's permissions and, if authorized, generating a new ticket channel with the appropriate settings and roles. A button can be used to trigger this process.</p>
@@ -768,6 +887,7 @@
 <p>Moderators can claim a ticket to take responsibility for it. The ticket is then assigned to them, and the necessary permissions are updated.</p>
 <h4 id="transcript-creation_1">Transcript Creation</h4>
 <p>Upon ticket closure, a complete transcript of the ticket channel's messages is generated and sent to a predefined transcript channel.</p>
+<hr />
 <p>This documentation provides an overview of the main functions of the Ticket System in CubowBot and their implementation. For detailed information and specific use cases, the code should be examined directly.</p>
 
 
