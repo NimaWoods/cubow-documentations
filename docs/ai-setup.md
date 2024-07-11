@@ -57,25 +57,3 @@ Generate images with DALL-E:
 ```plaintext
 /dall-e prompt:A futuristic city skyline at sunset.
 ```
-
-## Advanced Configuration
-
-### Set API Key
-
-To set your ChatGPT API key, use the following command:
-
-```plaintext
-/options chatgpt_api_token <your_chatgpt_api_token>
-```
-
-### Define a Prompt for Tickets
-
-To set a default prompt for ticket responses, use:
-
-```plaintext
-/options chatgpt_prompt <your_chatgpt_prompt>
-```
-
-### Use AI Commands
-
-Once the API key is set, you can use the `/chatgpt` and `/dall-e` commands to generate AI content. Make sure your prompts are clear and specific to get the best results.
