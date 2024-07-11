@@ -4,19 +4,19 @@
 
 ### Set a Ticket Channel and Category
 
-Set the channel where new tickets will appear:
+To configure the channel where new tickets will appear, use the following command:
 ```bash
 /ticketoptions ticket_channel <ticket_channel:#ticket>
 ```
 
-Set the category ID for ticket channels:
+To set the category ID for ticket channels, use this command:
 ```bash
 /ticketoptions ticket_category <ticket_category:category_id>
 ```
 
 ### Set a Ticket Title and Description
 
-Configure the title and description for new tickets:
+To configure the title and description for new tickets, use the following commands:
 ```bash
 /ticketoptions ticket_title <ticket_title:Your Ticket Title>
 ```
@@ -26,17 +26,17 @@ Configure the title and description for new tickets:
 
 ### Set AI Token for AI Response
 
-You can set an AI Token for AI Response by following [this guide](https://nimawoods.github.io/cubow-documentations/ai-setup/).
+To set an AI Token for AI Response, follow the guide available [here](https://nimawoods.github.io/cubow-documentations/ai-setup/).
 
 ## Overview
 
 The CubowBot Ticket System allows users to submit support requests or other inquiries in a structured and organized manner. The system supports the creation, management, and closure of tickets, as well as communication between members and moderators.
 
+```bash
+/ticket <command>
+```
+
 ## Main Components and Functions
-
-### Ticket Class
-
-The main class for managing tickets includes functionality for creating, editing, and closing tickets, managing permissions, and sending notifications.
 
 ### Key Functions
 
@@ -90,6 +90,6 @@ Moderators can claim a ticket to take responsibility for it. The ticket is then 
 
 Upon ticket closure, a complete transcript of the ticket channel's messages is generated and sent to a predefined transcript channel.
 
----
+#### Reopening a Ticket
 
-This documentation provides an overview of the main functions of the Ticket System in CubowBot and their implementation. For detailed information and specific use cases, the code should be examined directly.
+If a [ticket channel](#set-a-ticket-channel-and-category) and a [ticket category](#set-a-ticket-channel-and-category) are set, users can reopen tickets that were previously closed. They receive a notification upon ticket closure and can click on a button to reopen the selected ticket.
