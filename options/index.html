@@ -327,93 +327,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Option Commands">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#command-categories" class="md-nav__link">
-    <span class="md-ellipsis">
-      Command Categories
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#general-options" class="md-nav__link">
-    <span class="md-ellipsis">
-      General Options
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="General Options">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#subcommands" class="md-nav__link">
-    <span class="md-ellipsis">
-      Subcommands
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ticket-options" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ticket Options
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Ticket Options">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#subcommands_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Subcommands
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#notification-options" class="md-nav__link">
-    <span class="md-ellipsis">
-      Notification Options
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Notification Options">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#subcommands_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Subcommands
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
     </ul>
@@ -495,93 +408,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Option Commands">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#command-categories" class="md-nav__link">
-    <span class="md-ellipsis">
-      Command Categories
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#general-options" class="md-nav__link">
-    <span class="md-ellipsis">
-      General Options
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="General Options">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#subcommands" class="md-nav__link">
-    <span class="md-ellipsis">
-      Subcommands
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ticket-options" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ticket Options
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Ticket Options">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#subcommands_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Subcommands
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#notification-options" class="md-nav__link">
-    <span class="md-ellipsis">
-      Notification Options
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Notification Options">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#subcommands_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Subcommands
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
     </ul>
@@ -602,140 +428,217 @@
   <h1>Option Commands</h1>
 
 <h2 id="option-commands">Option Commands</h2>
-<p>The <code>OptionCommands</code> class loads and configures all commands available in Cubow Bot. These commands allow you to set various options for your server, manage tickets, and configure notifications.</p>
-<h3 id="command-categories">Command Categories</h3>
-<ol>
-<li><strong>General Options</strong>: <code>/options</code></li>
-<li><strong>Ticket Options</strong>: <code>/ticketoptions</code></li>
-<li><strong>Notification Options</strong>: <code>/notificationoptions</code></li>
-</ol>
-<p>Each category contains several subcommands to set specific options.</p>
-<h2 id="general-options">General Options</h2>
-<p>The <code>/options</code> command allows you to set various general options for your server.</p>
-<h3 id="subcommands">Subcommands</h3>
-<ul>
-<li><strong>language</strong>: Set the language for Cubow.
-  <code>plaintext
-  /options language language:&lt;language&gt;</code></li>
-<li><strong>rules</strong>: Set rules to send in the rule channel.
-  <code>plaintext
-  /options rules rules:&lt;rules_text&gt;</code></li>
-<li><strong>automod</strong>: Enable or disable Automod.
-  <code>plaintext
-  /options automod automod:&lt;true/false&gt;</code></li>
-<li><strong>rule_channel</strong>: Set the channel for rules embed.
-  <code>plaintext
-  /options rule_channel rule_channel:&lt;#channel&gt;</code></li>
-<li><strong>welcome_channel</strong>: Set the welcome channel.
-  <code>plaintext
-  /options welcome_channel welcome_channel:&lt;#channel&gt;</code></li>
-<li><strong>welcome_message</strong>: Set the welcome message.
-  <code>plaintext
-  /options welcome_message welcome_message:&lt;message&gt;</code></li>
-<li><strong>goodbye_channel</strong>: Set the goodbye channel.
-  <code>plaintext
-  /options goodbye_channel goodbye_channel:&lt;#channel&gt;</code></li>
-<li><strong>goodbye_message</strong>: Set the goodbye message.
-  <code>plaintext
-  /options goodbye_message goodbye_message:&lt;message&gt;</code></li>
-<li><strong>website</strong>: Set your website link.
-  <code>plaintext
-  /options website website:&lt;link&gt;</code></li>
-<li><strong>discord</strong>: Set your Discord link.
-  <code>plaintext
-  /options discord discord:&lt;link&gt;</code></li>
-<li><strong>twitter</strong>: Set your Twitter link.
-  <code>plaintext
-  /options twitter twitter:&lt;link&gt;</code></li>
-<li><strong>instagram</strong>: Set your Instagram link.
-  <code>plaintext
-  /options instagram instagram:&lt;link&gt;</code></li>
-<li><strong>facebook</strong>: Set your Facebook link.
-  <code>plaintext
-  /options facebook facebook:&lt;link&gt;</code></li>
-<li><strong>youtube</strong>: Set your YouTube link.
-  <code>plaintext
-  /options youtube youtube:&lt;link&gt;</code></li>
-<li><strong>twitch</strong>: Set your Twitch link.
-  <code>plaintext
-  /options twitch twitch:&lt;link&gt;</code></li>
-<li><strong>mute_role</strong>: Set the mute role.
-  <code>plaintext
-  /options mute_role mute_role:&lt;@role&gt;</code></li>
-<li><strong>join_autorole</strong>: Set the autorole for new members.
-  <code>plaintext
-  /options join_autorole join_autorole:&lt;@role&gt;</code></li>
-<li><strong>moderation_roles</strong>: Set the moderation roles.
-  <code>plaintext
-  /options moderation_roles moderation_roles:&lt;@role1,@role2&gt;</code></li>
-<li><strong>chatgpt_permissions</strong>: Set permissions for using ChatGPT.
-  <code>plaintext
-  /options chatgpt_permissions chatgpt_permissions:&lt;ALL/ADMIN/OWNER&gt;</code></li>
-<li><strong>chatgpt_api_token</strong>: Set the ChatGPT API token.
-  <code>plaintext
-  /options chatgpt_api_token chatgpt_api_token:&lt;token&gt;</code></li>
-<li><strong>chatgpt_prompt</strong>: Set the default ChatGPT prompt.
-  <code>plaintext
-  /options chatgpt_prompt chatgpt_prompt:&lt;prompt&gt;</code></li>
-<li><strong>temp_voicechat_channel</strong>: Set the temporary voice chat channel.
-  <code>plaintext
-  /options temp_voicechat_channel temp_voicechat_channel:&lt;channel_id&gt;</code></li>
-<li><strong>temp_voicechat_category</strong>: Set the temporary voice chat category.
-  <code>plaintext
-  /options temp_voicechat_category temp_voicechat_category:&lt;category_id&gt;</code></li>
-</ul>
-<h2 id="ticket-options">Ticket Options</h2>
-<p>The <code>/ticketoptions</code> command allows you to set various options for managing tickets in your server.</p>
-<h3 id="subcommands_1">Subcommands</h3>
-<ul>
-<li><strong>ticket_channel</strong>: Set the channel for the ticket panel.
-  <code>plaintext
-  /ticketoptions ticket_channel ticket_channel:&lt;#channel&gt;</code></li>
-<li><strong>ticket_category</strong>: Set the category where tickets are created.
-  <code>plaintext
-  /ticketoptions ticket_category ticket_category:&lt;category_id&gt;</code></li>
-<li><strong>transcript_channel</strong>: Set the channel for transcripts.
-  <code>plaintext
-  /ticketoptions transcript_channel transcript_channel:&lt;#channel&gt;</code></li>
-<li><strong>ticket_title</strong>: Set the ticket title.
-  <code>plaintext
-  /ticketoptions ticket_title ticket_title:&lt;title&gt;</code></li>
-<li><strong>ticket_description</strong>: Set the ticket description.
-  <code>plaintext
-  /ticketoptions ticket_description ticket_description:&lt;description&gt;</code></li>
-<li><strong>ticket_name</strong>: Set the name for ticket channels.
-  <code>plaintext
-  /ticketoptions ticket_name ticket_name:&lt;name&gt;</code></li>
-<li><strong>ticket_q_and_a</strong>: Set the Q&amp;A to send to ChatGPT.
-  <code>plaintext
-  /ticketoptions ticket_q_and_a ticket_q_and_a:&lt;q_and_a&gt;</code></li>
-<li><strong>ticket_view_role_permission</strong>: Set the roles that can view tickets.
-  <code>plaintext
-  /ticketoptions ticket_view_role_permission ticket_view_role_permission:&lt;@role1,@role2&gt;</code></li>
-<li><strong>ticket_send_role_permission</strong>: Set the roles that can send messages in tickets.
-  <code>plaintext
-  /ticketoptions ticket_send_role_permission ticket_send_role_permission:&lt;@role1,@role2&gt;</code></li>
-<li><strong>ticket_mention_role</strong>: Set the roles to mention on new tickets.
-  <code>plaintext
-  /ticketoptions ticket_mention_role ticket_mention_role:&lt;@role1,@role2&gt;</code></li>
-</ul>
-<h2 id="notification-options">Notification Options</h2>
-<p>The <code>/notificationoptions</code> command allows you to set various notification channels for your server.</p>
-<h3 id="subcommands_2">Subcommands</h3>
-<ul>
-<li><strong>moderation_notification_channel</strong>: Set the channel for moderation notifications.
-  <code>plaintext
-  /notificationoptions moderation_notification_channel moderation_notification_channel:&lt;#channel&gt;</code></li>
-<li><strong>report_notification_channel</strong>: Set the channel for report notifications.
-  <code>plaintext
-  /notificationoptions report_notification_channel report_notification_channel:&lt;#channel&gt;</code></li>
-<li><strong>live_notification_channel</strong>: Set the channel for live notifications (Twitch).
-  <code>plaintext
-  /notificationoptions live_notification_channel live_notification_channel:&lt;#channel&gt;</code></li>
-<li><strong>offline_notification_channel</strong>: Set the channel for offline notifications (Twitch).
-  <code>plaintext
-  /notificationoptions offline_notification_channel offline_notification_channel:&lt;#channel&gt;</code></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>General Options</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/options language</td>
+<td>Set the language for Cubow.</td>
+<td><code>/options language language:&lt;language&gt;</code></td>
+</tr>
+<tr>
+<td>/options rules</td>
+<td>Set rules to send in the rule channel.</td>
+<td><code>/options rules rules:&lt;rules_text&gt;</code></td>
+</tr>
+<tr>
+<td>/options automod</td>
+<td>Enable or disable Automod.</td>
+<td><code>/options automod automod:&lt;true/false&gt;</code></td>
+</tr>
+<tr>
+<td>/options rule_channel</td>
+<td>Set the channel for rules embed.</td>
+<td><code>/options rule_channel rule_channel:&lt;#channel&gt;</code></td>
+</tr>
+<tr>
+<td>/options welcome_channel</td>
+<td>Set the welcome channel.</td>
+<td><code>/options welcome_channel welcome_channel:&lt;#channel&gt;</code></td>
+</tr>
+<tr>
+<td>/options welcome_message</td>
+<td>Set the welcome message.</td>
+<td><code>/options welcome_message welcome_message:&lt;message&gt;</code></td>
+</tr>
+<tr>
+<td>/options goodbye_channel</td>
+<td>Set the goodbye channel.</td>
+<td><code>/options goodbye_channel goodbye_channel:&lt;#channel&gt;</code></td>
+</tr>
+<tr>
+<td>/options goodbye_message</td>
+<td>Set the goodbye message.</td>
+<td><code>/options goodbye_message goodbye_message:&lt;message&gt;</code></td>
+</tr>
+<tr>
+<td>/options website</td>
+<td>Set your website link.</td>
+<td><code>/options website website:&lt;link&gt;</code></td>
+</tr>
+<tr>
+<td>/options discord</td>
+<td>Set your Discord link.</td>
+<td><code>/options discord discord:&lt;link&gt;</code></td>
+</tr>
+<tr>
+<td>/options twitter</td>
+<td>Set your Twitter link.</td>
+<td><code>/options twitter twitter:&lt;link&gt;</code></td>
+</tr>
+<tr>
+<td>/options instagram</td>
+<td>Set your Instagram link.</td>
+<td><code>/options instagram instagram:&lt;link&gt;</code></td>
+</tr>
+<tr>
+<td>/options facebook</td>
+<td>Set your Facebook link.</td>
+<td><code>/options facebook facebook:&lt;link&gt;</code></td>
+</tr>
+<tr>
+<td>/options youtube</td>
+<td>Set your YouTube link.</td>
+<td><code>/options youtube youtube:&lt;link&gt;</code></td>
+</tr>
+<tr>
+<td>/options twitch</td>
+<td>Set your Twitch link.</td>
+<td><code>/options twitch twitch:&lt;link&gt;</code></td>
+</tr>
+<tr>
+<td>/options mute_role</td>
+<td>Set the mute role.</td>
+<td><code>/options mute_role mute_role:&lt;@role&gt;</code></td>
+</tr>
+<tr>
+<td>/options join_autorole</td>
+<td>Set the autorole for new members.</td>
+<td><code>/options join_autorole join_autorole:&lt;@role&gt;</code></td>
+</tr>
+<tr>
+<td>/options moderation_roles</td>
+<td>Set the moderation roles.</td>
+<td><code>/options moderation_roles moderation_roles:&lt;@role1,@role2&gt;</code></td>
+</tr>
+<tr>
+<td>/options chatgpt_permissions</td>
+<td>Set permissions for using ChatGPT.</td>
+<td><code>/options chatgpt_permissions chatgpt_permissions:&lt;ALL/ADMIN/OWNER&gt;</code></td>
+</tr>
+<tr>
+<td>/options chatgpt_api_token</td>
+<td>Set the ChatGPT API token.</td>
+<td><code>/options chatgpt_api_token chatgpt_api_token:&lt;token&gt;</code></td>
+</tr>
+<tr>
+<td>/options chatgpt_prompt</td>
+<td>Set the default ChatGPT prompt.</td>
+<td><code>/options chatgpt_prompt chatgpt_prompt:&lt;prompt&gt;</code></td>
+</tr>
+<tr>
+<td>/options temp_voicechat_channel</td>
+<td>Set the temporary voice chat channel.</td>
+<td><code>/options temp_voicechat_channel temp_voicechat_channel:&lt;channel_id&gt;</code></td>
+</tr>
+<tr>
+<td>/options temp_voicechat_category</td>
+<td>Set the temporary voice chat category.</td>
+<td><code>/options temp_voicechat_category temp_voicechat_category:&lt;category_id&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Ticket Options</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/ticketoptions ticket_channel</td>
+<td>Set the channel for the ticket panel.</td>
+<td><code>/ticketoptions ticket_channel ticket_channel:&lt;#channel&gt;</code></td>
+</tr>
+<tr>
+<td>/ticketoptions ticket_category</td>
+<td>Set the category where tickets are created.</td>
+<td><code>/ticketoptions ticket_category ticket_category:&lt;category_id&gt;</code></td>
+</tr>
+<tr>
+<td>/ticketoptions transcript_channel</td>
+<td>Set the channel for transcripts.</td>
+<td><code>/ticketoptions transcript_channel transcript_channel:&lt;#channel&gt;</code></td>
+</tr>
+<tr>
+<td>/ticketoptions ticket_title</td>
+<td>Set the ticket title.</td>
+<td><code>/ticketoptions ticket_title ticket_title:&lt;title&gt;</code></td>
+</tr>
+<tr>
+<td>/ticketoptions ticket_description</td>
+<td>Set the ticket description.</td>
+<td><code>/ticketoptions ticket_description ticket_description:&lt;description&gt;</code></td>
+</tr>
+<tr>
+<td>/ticketoptions ticket_name</td>
+<td>Set the name for ticket channels.</td>
+<td><code>/ticketoptions ticket_name ticket_name:&lt;name&gt;</code></td>
+</tr>
+<tr>
+<td>/ticketoptions ticket_q_and_a</td>
+<td>Set the Q&amp;A to send to ChatGPT.</td>
+<td><code>/ticketoptions ticket_q_and_a ticket_q_and_a:&lt;q_and_a&gt;</code></td>
+</tr>
+<tr>
+<td>/ticketoptions ticket_view_role_permission</td>
+<td>Set the roles that can view tickets.</td>
+<td><code>/ticketoptions ticket_view_role_permission ticket_view_role_permission:&lt;@role1,@role2&gt;</code></td>
+</tr>
+<tr>
+<td>/ticketoptions ticket_send_role_permission</td>
+<td>Set the roles that can send messages in tickets.</td>
+<td><code>/ticketoptions ticket_send_role_permission ticket_send_role_permission:&lt;@role1,@role2&gt;</code></td>
+</tr>
+<tr>
+<td>/ticketoptions ticket_mention_role</td>
+<td>Set the roles to mention on new tickets.</td>
+<td><code>/ticketoptions ticket_mention_role ticket_mention_role:&lt;@role1,@role2&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Notification Options</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/notificationoptions moderation_notification_channel</td>
+<td>Set the channel for moderation notifications.</td>
+<td><code>/notificationoptions moderation_notification_channel moderation_notification_channel:&lt;#channel&gt;</code></td>
+</tr>
+<tr>
+<td>/notificationoptions report_notification_channel</td>
+<td>Set the channel for report notifications.</td>
+<td><code>/notificationoptions report_notification_channel report_notification_channel:&lt;#channel&gt;</code></td>
+</tr>
+<tr>
+<td>/notificationoptions live_notification_channel</td>
+<td>Set the channel for live notifications (Twitch).</td>
+<td><code>/notificationoptions live_notification_channel live_notification_channel:&lt;#channel&gt;</code></td>
+</tr>
+<tr>
+<td>/notificationoptions offline_notification_channel</td>
+<td>Set the channel for offline notifications (Twitch).</td>
+<td><code>/notificationoptions offline_notification_channel offline_notification_channel:&lt;#channel&gt;</code></td>
+</tr>
+</tbody>
+</table>
 
 
 
